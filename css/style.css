@@ -11,6 +11,24 @@ Version: 1.0.0
 			height: 70px;
 			width: auto;
 		}
+    
+		.footer-socials .list-inline-item a {
+			width: 36px;
+			height: 36px;
+			border-radius: 50%;
+			background: #223a66;
+			color: #fff;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			font-size: 0.95rem;
+			transition: all 0.3s;
+		}
+
+		.footer-socials .list-inline-item a:hover {
+			background: #1a4f8a;
+			transform: translateY(-2px);
+		}
 @import url("https://fonts.googleapis.com/css?family=Exo:500,600,700|Roboto&display=swap");
 html {
   overflow-x: hidden;
